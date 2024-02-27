@@ -11,7 +11,7 @@ function App() {
       <div>
 
         <Form/>
-        <Card/>
+        <Card item={item}/>
         
       </div>
       
