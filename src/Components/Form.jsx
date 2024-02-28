@@ -1,14 +1,9 @@
 import { useState } from 'react'
-import Card from './Card'
+
 
 const Form = ({datos, setDatos}) => {
 
-    
-  {/*const [datos, setDatos] = useState({
-    nombre: '',
-    comida: ''
-  })*/}
-
+  
   const [state, setState] = useState(false)
   const [error, setError] = useState(false)
 
@@ -22,9 +17,6 @@ const Form = ({datos, setDatos}) => {
     }
     
   }  
-
-  //console.log(datos.nombre)
-  //console.log(datos.comida)
 
   return (
     
