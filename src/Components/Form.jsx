@@ -5,7 +5,7 @@ const Form = () => {
     
   return (
     <div>
-      <h3>Hola soy un form</h3>
+      <h3>Hola soy un formulario</h3>
     </div>
   )
 }
